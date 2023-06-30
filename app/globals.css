@@ -1,0 +1,42 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containers {
+    width: 85%;
+    margin: auto;
+}
+
+.custombg {
+    background-color: #0a76b8;
+}
+
+.customcolor {
+    color: #0a76b8;
+}
+
+.heroSection {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.929), rgba(0, 0, 0, 0.206)), url('../public/hero.png');
+    height: 80vh;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.contactImage {
+    background: linear-gradient(#0a75b88d, #0a75b88d), url('../public/contactImage.jpg');
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
